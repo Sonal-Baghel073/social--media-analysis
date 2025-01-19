@@ -1,20 +1,21 @@
 # Social-Media-Content-Analyzer
 
 **Overview**
+
 The Social Media Content Analyzer is a web-based application designed to help users optimize their social media posts by analysing uploaded PDF or image files. The app extracts text from these files, analysis their sentiment, and provides actionable suggestions for improving content engagement. By making the content more engaging, readable, and discoverable, this tool aims to boost interaction on social media platforms.
 
-****Features****
+**Features**
 
 Text Extraction from PDF and Image Files
 The app supports both PDF and image uploads. It uses different methods to extract text depending on the file type:
 PDF Files: The app extracts text using PyPDF2, which reads and extracts text from the pages of a PDF document.
 Image Files: The app uses pytesseract (OCR) to extract text from images (PNG, JPG, JPEG).
 
-** **Sentiment Analysis****
+ **Sentiment Analysis**
 
 Using TextBlob, the app analyzes the sentiment of the extracted text, categorizing it as Positive, Negative, or Neutral based on the emotional tone.
 
-** **Engagement Suggestions****
+ **Engagement Suggestions**
 
 The app generates engagement suggestions, considering factors like:
 Text length (suggesting more detail if the post is too short),
