@@ -24,6 +24,7 @@ Readability (suggesting simplification if the readability score is low),
 Keywords (suggesting relevant keywords to improve discoverability).
 
  **Interactive User Interface**
+ 
 Built with Streamlit, the app provides a user-friendly interface for uploading files and viewing the results.
 
 **Technologies Used**
